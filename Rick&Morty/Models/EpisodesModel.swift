@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Episode: Codable, Identifiable {
+struct EpisodeModel: Codable, Identifiable {
     var id: Int
     var name: String
     var air_date: String

@@ -11,6 +11,8 @@
 		EC9DA3DA2CB709FE00E6B913 /* EpisodesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9DA3D92CB709FE00E6B913 /* EpisodesModel.swift */; };
 		EC9DA3DE2CB70AEC00E6B913 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9DA3DD2CB70AEC00E6B913 /* LocationModel.swift */; };
 		EC9DA3E12CB70F6000E6B913 /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9DA3E02CB70F6000E6B913 /* CharacterModel.swift */; };
+		EC9DA3E32CB719D100E6B913 /* EpisodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9DA3E22CB719D100E6B913 /* EpisodeService.swift */; };
+		EC9DA3E52CB71DB400E6B913 /* CharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9DA3E42CB71DB400E6B913 /* CharacterService.swift */; };
 		ECDF06072CB70682002B3C34 /* Rick_MortyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDF06062CB70682002B3C34 /* Rick_MortyApp.swift */; };
 		ECDF06092CB70682002B3C34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDF06082CB70682002B3C34 /* ContentView.swift */; };
 		ECDF060B2CB70684002B3C34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECDF060A2CB70684002B3C34 /* Assets.xcassets */; };
@@ -44,6 +46,8 @@
 		EC9DA3D92CB709FE00E6B913 /* EpisodesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesModel.swift; sourceTree = "<group>"; };
 		EC9DA3DD2CB70AEC00E6B913 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		EC9DA3E02CB70F6000E6B913 /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
+		EC9DA3E22CB719D100E6B913 /* EpisodeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeService.swift; sourceTree = "<group>"; };
+		EC9DA3E42CB71DB400E6B913 /* CharacterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterService.swift; sourceTree = "<group>"; };
 		ECDF06032CB70682002B3C34 /* Rick&Morty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rick&Morty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDF06062CB70682002B3C34 /* Rick_MortyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rick_MortyApp.swift; sourceTree = "<group>"; };
 		ECDF06082CB70682002B3C34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -189,6 +193,8 @@
 		ECDF06382CB7087D002B3C34 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				EC9DA3E22CB719D100E6B913 /* EpisodeService.swift */,
+				EC9DA3E42CB71DB400E6B913 /* CharacterService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -337,10 +343,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECDF063B2CB708A0002B3C34 /* HomeView.swift in Sources */,
+				EC9DA3E32CB719D100E6B913 /* EpisodeService.swift in Sources */,
 				ECDF06092CB70682002B3C34 /* ContentView.swift in Sources */,
 				ECDF06072CB70682002B3C34 /* Rick_MortyApp.swift in Sources */,
 				EC9DA3DA2CB709FE00E6B913 /* EpisodesModel.swift in Sources */,
 				EC9DA3DE2CB70AEC00E6B913 /* LocationModel.swift in Sources */,
+				EC9DA3E52CB71DB400E6B913 /* CharacterService.swift in Sources */,
 				EC9DA3E12CB70F6000E6B913 /* CharacterModel.swift in Sources */,
 				EC9DA3D82CB709C600E6B913 /* HomeViewModel.swift in Sources */,
 			);
