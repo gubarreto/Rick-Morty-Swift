@@ -9,4 +9,5 @@ import Foundation
 
 class HomeViewModel: ObservableObject {
     var episodes: [Episode] = []
+    var locations: [Location] = []
 }
