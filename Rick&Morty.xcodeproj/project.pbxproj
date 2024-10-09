@@ -10,6 +10,7 @@
 		EC9DA3D82CB709C600E6B913 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9DA3D72CB709C600E6B913 /* HomeViewModel.swift */; };
 		EC9DA3DA2CB709FE00E6B913 /* EpisodesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9DA3D92CB709FE00E6B913 /* EpisodesModel.swift */; };
 		EC9DA3DE2CB70AEC00E6B913 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9DA3DD2CB70AEC00E6B913 /* LocationModel.swift */; };
+		EC9DA3E12CB70F6000E6B913 /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9DA3E02CB70F6000E6B913 /* CharacterModel.swift */; };
 		ECDF06072CB70682002B3C34 /* Rick_MortyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDF06062CB70682002B3C34 /* Rick_MortyApp.swift */; };
 		ECDF06092CB70682002B3C34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDF06082CB70682002B3C34 /* ContentView.swift */; };
 		ECDF060B2CB70684002B3C34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECDF060A2CB70684002B3C34 /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 		EC9DA3D72CB709C600E6B913 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		EC9DA3D92CB709FE00E6B913 /* EpisodesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesModel.swift; sourceTree = "<group>"; };
 		EC9DA3DD2CB70AEC00E6B913 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		EC9DA3E02CB70F6000E6B913 /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
 		ECDF06032CB70682002B3C34 /* Rick&Morty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rick&Morty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDF06062CB70682002B3C34 /* Rick_MortyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rick_MortyApp.swift; sourceTree = "<group>"; };
 		ECDF06082CB70682002B3C34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 			children = (
 				EC9DA3D92CB709FE00E6B913 /* EpisodesModel.swift */,
 				EC9DA3DD2CB70AEC00E6B913 /* LocationModel.swift */,
+				EC9DA3E02CB70F6000E6B913 /* CharacterModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				ECDF06072CB70682002B3C34 /* Rick_MortyApp.swift in Sources */,
 				EC9DA3DA2CB709FE00E6B913 /* EpisodesModel.swift in Sources */,
 				EC9DA3DE2CB70AEC00E6B913 /* LocationModel.swift in Sources */,
+				EC9DA3E12CB70F6000E6B913 /* CharacterModel.swift in Sources */,
 				EC9DA3D82CB709C600E6B913 /* HomeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
